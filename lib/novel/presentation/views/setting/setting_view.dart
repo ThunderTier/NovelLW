@@ -10,6 +10,8 @@ class SettingView extends StatefulWidget {
 class _SettingViewState extends State<SettingView> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return SafeArea(
+      child: Placeholder(),
+    );
   }
 }

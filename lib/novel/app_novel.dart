@@ -9,8 +9,9 @@ class AppNovel extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Novel L/W",
-      theme: ThemeData(),
-      themeMode: ThemeMode.system,
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.dark,
       home: const MainScreen(),
     );
   }
